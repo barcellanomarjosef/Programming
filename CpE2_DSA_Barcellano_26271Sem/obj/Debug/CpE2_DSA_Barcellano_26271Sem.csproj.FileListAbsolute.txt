@@ -10,3 +10,15 @@ C:\Users\ASUS\source\repos\CpE2_DSA_Olivar_26271Sem\bin\Debug\CpE2_DSA_Olivar_26
 C:\Users\ASUS\source\repos\CpE2_DSA_Olivar_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.ArrayControl.resources
 C:\Users\ASUS\source\repos\CpE2_DSA_Olivar_26271Sem\obj\Debug\CpE2_DSA_Olivar_26271Sem.exe
 C:\Users\ASUS\source\repos\CpE2_DSA_Olivar_26271Sem\obj\Debug\CpE2_DSA_Olivar_26271Sem.pdb
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\bin\Debug\CpE2_DSA_Olivar_26271Sem.exe.config
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\bin\Debug\CpE2_DSA_Olivar_26271Sem.exe
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\bin\Debug\CpE2_DSA_Olivar_26271Sem.pdb
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.ArrayControl.resources
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.Form1.resources
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.LinkedListControl.resources
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Olivar_26271Sem.Properties.Resources.resources
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.csproj.GenerateResource.cache
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Barcellano_26271Sem.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Olivar_26271Sem.exe
+C:\Users\User\source\repos\Programming\CpE2_DSA_Barcellano_26271Sem\obj\Debug\CpE2_DSA_Olivar_26271Sem.pdb
