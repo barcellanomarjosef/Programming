@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace CpE2_DSA_Barcellano_26271Sem
@@ -17,16 +10,24 @@ namespace CpE2_DSA_Barcellano_26271Sem
             InitializeComponent();
         }
 
-        private void btnOk_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(txtFname.Text + " " + txtMI.Text + ". " + txtLname.Text + "Github");
-        }
-
         private void btnArray_Click(object sender, EventArgs e)
         {
-           frmArray frmArray = new frmArray();
-            frmArray.Show();
-            this.Hide();
+            splitContainer1.Panel2.Controls.Clear();
+            ArrayControl ctrl = new ArrayControl();
+            ctrl.Dock = DockStyle.Fill;
+            splitContainer1.Panel2.Controls.Add(ctrl);
+        }
+
+        private void btnLinkedList_Click(object sender, EventArgs e)
+        {
+            splitContainer1.Panel2.Controls.Clear();
+            LinkedListControl ctrl = new LinkedListControl();
+            ctrl.Dock = DockStyle.Fill;
+            splitContainer1.Panel2.Controls.Add(ctrl);
+        }
+        private void lblAuthor_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

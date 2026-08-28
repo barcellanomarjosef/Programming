@@ -2,15 +2,8 @@
 {
     partial class Form1
     {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -22,166 +15,138 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtFname = new System.Windows.Forms.TextBox();
-            this.cmbYearLevel = new System.Windows.Forms.ComboBox();
-            this.txtLname = new System.Windows.Forms.TextBox();
-            this.btnOk = new System.Windows.Forms.Button();
+            this.pnlHeader = new System.Windows.Forms.Panel();
+            this.lblAuthor = new System.Windows.Forms.Label();
+            this.lblCourse = new System.Windows.Forms.Label();
+            this.lblUniversity = new System.Windows.Forms.Label();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.btnLinkList = new System.Windows.Forms.Button();
             this.btnArray = new System.Windows.Forms.Button();
-            this.txtMI = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
+            this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // groupBox1
+            // pnlHeader
             // 
-            this.groupBox1.Controls.Add(this.txtMI);
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.txtFname);
-            this.groupBox1.Controls.Add(this.cmbYearLevel);
-            this.groupBox1.Controls.Add(this.txtLname);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(31, 66);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(382, 209);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Student Info";
+            this.pnlHeader.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.pnlHeader.Controls.Add(this.lblAuthor);
+            this.pnlHeader.Controls.Add(this.lblCourse);
+            this.pnlHeader.Controls.Add(this.lblUniversity);
+            this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Name = "pnlHeader";
+            this.pnlHeader.Size = new System.Drawing.Size(891, 87);
+            this.pnlHeader.TabIndex = 0;
             // 
-            // label1
+            // lblAuthor
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(63, 65);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 24);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "First Name";
+            this.lblAuthor.AutoSize = true;
+            this.lblAuthor.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblAuthor.ForeColor = System.Drawing.Color.Orange;
+            this.lblAuthor.Location = new System.Drawing.Point(13, 56);
+            this.lblAuthor.Name = "lblAuthor";
+            this.lblAuthor.Size = new System.Drawing.Size(175, 15);
+            this.lblAuthor.TabIndex = 2;
+            this.lblAuthor.Text = "Mar Josef V. Barcellano(CpE-2)";
+            this.lblAuthor.Click += new System.EventHandler(this.lblAuthor_Click);
             // 
-            // label3
+            // lblCourse
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(63, 135);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(99, 24);
-            this.label3.TabIndex = 11;
-            this.label3.Text = "Last Name";
+            this.lblCourse.AutoSize = true;
+            this.lblCourse.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold);
+            this.lblCourse.ForeColor = System.Drawing.Color.Orange;
+            this.lblCourse.Location = new System.Drawing.Point(13, 39);
+            this.lblCourse.Name = "lblCourse";
+            this.lblCourse.Size = new System.Drawing.Size(292, 15);
+            this.lblCourse.TabIndex = 1;
+            this.lblCourse.Text = "Data Structure and Algorithm (1st Sem 2026-2027)";
             // 
-            // label2
+            // lblUniversity
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(127, 100);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 24);
-            this.label2.TabIndex = 10;
-            this.label2.Text = "M.I";
+            this.lblUniversity.AutoSize = true;
+            this.lblUniversity.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold);
+            this.lblUniversity.ForeColor = System.Drawing.Color.Gold;
+            this.lblUniversity.Location = new System.Drawing.Point(10, 10);
+            this.lblUniversity.Name = "lblUniversity";
+            this.lblUniversity.Size = new System.Drawing.Size(551, 25);
+            this.lblUniversity.TabIndex = 0;
+            this.lblUniversity.Text = "University of Perpetual Help System Dalta - Calamba Campus";
             // 
-            // txtFname
+            // splitContainer1
             // 
-            this.txtFname.Location = new System.Drawing.Point(168, 60);
-            this.txtFname.Name = "txtFname";
-            this.txtFname.Size = new System.Drawing.Size(177, 29);
-            this.txtFname.TabIndex = 5;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 87);
+            this.splitContainer1.Name = "splitContainer1";
             // 
-            // cmbYearLevel
+            // splitContainer1.Panel1
             // 
-            this.cmbYearLevel.FormattingEnabled = true;
-            this.cmbYearLevel.Items.AddRange(new object[] {
-            "1",
-            "2",
-            "3",
-            "4"});
-            this.cmbYearLevel.Location = new System.Drawing.Point(168, 165);
-            this.cmbYearLevel.Name = "cmbYearLevel";
-            this.cmbYearLevel.Size = new System.Drawing.Size(177, 32);
-            this.cmbYearLevel.TabIndex = 8;
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.Gray;
+            this.splitContainer1.Panel1.Controls.Add(this.btnLinkList);
+            this.splitContainer1.Panel1.Controls.Add(this.btnArray);
+            this.splitContainer1.Size = new System.Drawing.Size(891, 390);
+            this.splitContainer1.SplitterDistance = 220;
+            this.splitContainer1.SplitterWidth = 1;
+            this.splitContainer1.TabIndex = 1;
             // 
-            // txtLname
+            // btnLinkList
             // 
-            this.txtLname.Location = new System.Drawing.Point(168, 130);
-            this.txtLname.Name = "txtLname";
-            this.txtLname.Size = new System.Drawing.Size(177, 29);
-            this.txtLname.TabIndex = 2;
-            // 
-            // btnOk
-            // 
-            this.btnOk.Location = new System.Drawing.Point(184, 281);
-            this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(84, 35);
-            this.btnOk.TabIndex = 2;
-            this.btnOk.Text = "Ok";
-            this.btnOk.UseVisualStyleBackColor = true;
-            this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
+            this.btnLinkList.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnLinkList.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnLinkList.Location = new System.Drawing.Point(20, 90);
+            this.btnLinkList.Name = "btnLinkList";
+            this.btnLinkList.Size = new System.Drawing.Size(180, 55);
+            this.btnLinkList.TabIndex = 1;
+            this.btnLinkList.Text = "LinkedList";
+            this.btnLinkList.UseVisualStyleBackColor = true;
+            this.btnLinkList.Click += new System.EventHandler(this.btnLinkedList_Click);
             // 
             // btnArray
             // 
-            this.btnArray.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnArray.Location = new System.Drawing.Point(423, 166);
+            this.btnArray.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnArray.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
+            this.btnArray.Location = new System.Drawing.Point(20, 25);
             this.btnArray.Name = "btnArray";
-            this.btnArray.Size = new System.Drawing.Size(98, 34);
-            this.btnArray.TabIndex = 3;
+            this.btnArray.Size = new System.Drawing.Size(180, 55);
+            this.btnArray.TabIndex = 0;
             this.btnArray.Text = "Array";
             this.btnArray.UseVisualStyleBackColor = true;
             this.btnArray.Click += new System.EventHandler(this.btnArray_Click);
-            // 
-            // txtMI
-            // 
-            this.txtMI.Location = new System.Drawing.Point(168, 95);
-            this.txtMI.Name = "txtMI";
-            this.txtMI.Size = new System.Drawing.Size(177, 29);
-            this.txtMI.TabIndex = 6;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
-            this.label4.Location = new System.Drawing.Point(419, 26);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 24);
-            this.label4.TabIndex = 4;
-            this.label4.Text = "Main Screen";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(863, 553);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.btnArray);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.btnOk);
+            this.ClientSize = new System.Drawing.Size(891, 477);
+            this.Controls.Add(this.splitContainer1);
+            this.Controls.Add(this.pnlHeader);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.pnlHeader.ResumeLayout(false);
+            this.pnlHeader.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox txtLname;
-        private System.Windows.Forms.Button btnOk;
-        private System.Windows.Forms.ComboBox cmbYearLevel;
-        private System.Windows.Forms.TextBox txtFname;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel pnlHeader;
+        private System.Windows.Forms.Label lblAuthor;
+        private System.Windows.Forms.Label lblCourse;
+        private System.Windows.Forms.Label lblUniversity;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.Button btnLinkList;
         private System.Windows.Forms.Button btnArray;
-        private System.Windows.Forms.TextBox txtMI;
-        private System.Windows.Forms.Label label4;
     }
 }
-
